@@ -23,7 +23,7 @@ if [ -f $FILE ]; then
   fi
 fi
 
-echo "Downloading pretrained ImageNet models (1G)..."
+echo "Downloading pretrained ImageNet models (1G)...", $DIR, $FILE
 
 wget $URL -O $FILE
 

@@ -23,7 +23,7 @@ if [ -f $FILE ]; then
   fi
 fi
 
-echo "Downloading precomputed selective search boxes (0.5G)..."
+echo "Downloading precomputed selective search boxes (0.5G)...", $DIR, $FILE
 
 wget $URL -O $FILE
 

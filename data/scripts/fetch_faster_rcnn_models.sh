@@ -23,7 +23,7 @@ if [ -f $FILE ]; then
   fi
 fi
 
-echo "Downloading Faster R-CNN demo models (695M)..."
+echo "Downloading Faster R-CNN demo models (695M)...", $DIR, $FILE
 
 wget $URL -O $FILE
 
