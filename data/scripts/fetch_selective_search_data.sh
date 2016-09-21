@@ -25,7 +25,7 @@ fi
 
 echo "Downloading precomputed selective search boxes (0.5G)...", $DIR, $FILE
 
-wget $URL -O $FILE
+wget $URL -O $FILE  -q --show-progress
 
 echo "Unzipping..."
 

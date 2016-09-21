@@ -25,7 +25,7 @@ fi
 
 echo "Downloading pretrained ImageNet models (1G)...", $DIR, $FILE
 
-wget $URL -O $FILE
+wget $URL -O $FILE -q --show-progress
 
 echo "Unzipping..."
 
